@@ -1,0 +1,30 @@
+JDK环境变量配置：
+JAVA_HOME
+	d:\jdk
+Path
+	;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin
+CLASSPATH
+	.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar
+
+
+
+SDK环境变量配置：
+Path
+	
+	;D:\sdk\platform-tools;D:\sdk\tools
+
+
+NPM切换镜像：
+npm install -g cnpm --registry=https://registry.npm.taobao.org 
+
+安装ionic
+cnpm install -g ionic cordova
+
+切换到工程目录，创建ionic工程
+ionic start myApp tabs
+
+进入项目，添加android平台
+ionic platform add android
+
+查看项目
+ionic serve 
